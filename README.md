@@ -37,25 +37,34 @@ src/
   store.jsx
   App.jsx
   main.jsx
-
+```
 
 ## ⚙️ Installation & Run
 
+Clone repository
+```txt
 git clone https://github.com/codershridharnaidu/ShoppingCart.git
-
 cd ShoppingCart
 
-# in terminal
+```
 
+## Install dependencies
+```txt 
 npm install
+```
 
-npm run dev
-
+## Run project
+```txt 
+npm install
+```
 
 ## 🌐 API Used
 
 Fake Store API:
+```txt
 https://fakestoreapi.com/products
+
+```
 
 ## ✅ Future Improvements
 
@@ -69,8 +78,10 @@ Add product details page
 
 Add search and filter functionality
 
-
 ## 👨‍💻 Author
 
 Shridhar Naidu
+```txt
 GitHub: https://github.com/codershridharnaidu
+
+```
