@@ -1,16 +1,76 @@
-# React + Vite
+# 🛒 Shopping Cart (React + Redux Toolkit)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple E-Commerce Shopping Cart application built using **React**, **Redux Toolkit**, **React Router**, and **Bootstrap**.  
+Products are fetched from the **Fake Store API** and displayed in a responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- ✅ Fetch products from Fake Store API
+- ✅ Display products in Bootstrap cards
+- ✅ React Router navigation (Home / Cart)
+- ✅ Redux Toolkit for state management
+- ✅ Responsive UI layout
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- React (Vite)
+- Redux Toolkit
+- React Redux
+- React Router DOM
+- Axios
+- React Bootstrap + Bootstrap
+- React Icons
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+```txt
+src/
+  assets/
+    Header.jsx
+    ProductsDisplay.jsx
+    CartItems.jsx
+  cartSlice.jsx
+  productSlice.jsx
+  store.jsx
+  App.jsx
+  main.jsx
+
+
+## ⚙️ Installation & Run
+
+git clone https://github.com/codershridharnaidu/ShoppingCart.git
+
+cd ShoppingCart
+
+# in terminal
+
+npm install
+
+npm run dev
+
+
+## 🌐 API Used
+
+Fake Store API:
+https://fakestoreapi.com/products
+
+## ✅ Future Improvements
+
+Add product quantity increase/decrease
+
+Add total price calculation
+
+Save cart in localStorage
+
+Add product details page
+
+Add search and filter functionality
+
+
+## 👨‍💻 Author
+
+Shridhar Naidu
+GitHub: https://github.com/codershridharnaidu

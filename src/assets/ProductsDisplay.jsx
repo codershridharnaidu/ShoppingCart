@@ -7,6 +7,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import { addToCart } from "../cartSlice";
 
 import { LiaRupeeSignSolid } from "react-icons/lia";
 
@@ -41,7 +42,7 @@ function ProductsDisplay() {
                   {p.price}
                 </Card.Text>
 
-                <Button variant="primary">Add to Cart</Button>
+                <Button variant="primary" onClick={()=>dispatch(addToCart(p))}>Add to Cart</Button>
               </Card.Body>
             </Card>
           </Col>
